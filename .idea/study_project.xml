@@ -28,16 +28,27 @@
               <Lesson>
                 <option name="id" value="0" />
                 <option name="index" value="1" />
-                <option name="name" value="lesson1" />
+                <option name="name" value="basics" />
                 <option name="updateDate" />
                 <option name="taskList">
                   <list>
                     <Task>
                       <option name="activeSubtaskIndex" value="0" />
-                      <option name="adaptiveTaskParameters" />
+                      <option name="adaptiveTaskParameters">
+                        <AdaptiveTaskParameters>
+                          <option name="choiceVariants">
+                            <list />
+                          </option>
+                          <option name="multipleChoice" value="false" />
+                          <option name="selectedVariants">
+                            <list />
+                          </option>
+                          <option name="theoryTask" value="false" />
+                        </AdaptiveTaskParameters>
+                      </option>
                       <option name="index" value="1" />
                       <option name="lastSubtaskIndex" value="0" />
-                      <option name="name" value="task1" />
+                      <option name="name" value="hello world" />
                       <option name="status" value="Unchecked" />
                       <option name="stepId" value="0" />
                       <option name="text" />
