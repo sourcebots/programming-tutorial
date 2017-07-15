@@ -12,3 +12,5 @@ env/
 test/
 
 Sourcebots_Programming_Tutorial.zip
+
+__pycache__/
