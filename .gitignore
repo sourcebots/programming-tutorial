@@ -7,3 +7,6 @@ env/
 .idea/misc.xml
 
 .coursecreator
+
+# Ignore a test output directory for trialing the course
+test/
