@@ -2,3 +2,8 @@ env/
 
 # Large amounts of the data are stored in .idea, so unfortunately we need to commit it!
 !.idea/
+.idea/workspace.xml
+.idea/vcs.xml
+.idea/misc.xml
+
+.coursecreator
