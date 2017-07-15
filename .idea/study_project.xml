@@ -75,7 +75,9 @@
                                                 <option name="answer" value="" />
                                                 <option name="hasFrame" value="true" />
                                                 <option name="hints">
-                                                  <list />
+                                                  <list>
+                                                    <option value="Text should be wrapped in double quotes" />
+                                                  </list>
                                                 </option>
                                                 <option name="needInsertText" value="false" />
                                                 <option name="placeholderText" value="type here" />
