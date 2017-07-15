@@ -26,3 +26,6 @@ Programming tutorial for Sourcebots to introduce people to the kits API. As well
 2. Select the cog next to _Courses_, _Add local course_, find the exported `.zip` file.
 3. Click _Create_
 4. Profit?
+
+## Basic Python Tutorial
+Writing a whole new tutorial for Python isnt worth it, so [here's](https://github.com/sourcebots/programming-tutorial/blob/master/basic.md) some resources to learn basic Python.
