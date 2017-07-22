@@ -14,7 +14,6 @@ rm -rf env/
 rm -rf test/
 rm -rf .git/
 rm -rf Sourcebots_Programming_Tutorial.zip
-rm -rf Sourcebots_Programming_Tutorial_Processed.zip
 rm -rf **/__pycache__
 
 
@@ -24,12 +23,12 @@ for task in lesson*/**; do
 done
 
 echo "> Recompressing..."
-zip -rlqX Sourcebots_Programming_Tutorial_Processed.zip *
+zip -rlqX Sourcebots_Programming_Tutorial.zip *
 
 cd ../
 
 echo "> Cleaning up..."
-mv zip_dir/Sourcebots_Programming_Tutorial_Processed.zip .
+mv zip_dir/Sourcebots_Programming_Tutorial.zip .
 
 rm -rf zip_dir/
 
