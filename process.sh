@@ -13,6 +13,10 @@ echo "> Cleaning out zip..."
 rm -rf env/
 rm -rf test/
 rm -rf .git/
+rm -rf Sourcebots_Programming_Tutorial.zip
+rm -rf Sourcebots_Programming_Tutorial_Processed.zip
+rm -rf **/__pycache__
+
 
 echo "> Moving robot stub into tasks..."
 for task in lesson*/**; do
