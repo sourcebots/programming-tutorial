@@ -180,6 +180,79 @@
                   </list>
                 </option>
               </Lesson>
+              <Lesson>
+                <option name="id" value="0" />
+                <option name="index" value="3" />
+                <option name="name" value="motors" />
+                <option name="updateDate" />
+                <option name="taskList">
+                  <list>
+                    <Task>
+                      <option name="activeSubtaskIndex" value="0" />
+                      <option name="adaptiveTaskParameters" />
+                      <option name="index" value="1" />
+                      <option name="lastSubtaskIndex" value="0" />
+                      <option name="name" value="read" />
+                      <option name="status" value="Failed" />
+                      <option name="stepId" value="0" />
+                      <option name="text" />
+                      <option name="theoryTask" value="false" />
+                      <option name="updateDate" />
+                      <option name="taskFiles">
+                        <map>
+                          <entry key="task.py">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list>
+                                    <AnswerPlaceholder>
+                                      <option name="index" value="0" />
+                                      <option name="initialState" />
+                                      <option name="length" value="15" />
+                                      <option name="offset" value="75" />
+                                      <option name="selected" value="false" />
+                                      <option name="subtaskInfos">
+                                        <map>
+                                          <entry key="0">
+                                            <value>
+                                              <AnswerPlaceholderSubtaskInfo>
+                                                <option name="answer" value="" />
+                                                <option name="hasFrame" value="true" />
+                                                <option name="hints">
+                                                  <list>
+                                                    <option value="Motor boards can be indexed by either their serial number or order number" />
+                                                  </list>
+                                                </option>
+                                                <option name="needInsertText" value="false" />
+                                                <option name="placeholderText" value="motor board key" />
+                                                <option name="possibleAnswer" value="0" />
+                                                <option name="selected" value="false" />
+                                                <option name="status" value="Failed" />
+                                              </AnswerPlaceholderSubtaskInfo>
+                                            </value>
+                                          </entry>
+                                        </map>
+                                      </option>
+                                      <option name="useLength" value="false" />
+                                    </AnswerPlaceholder>
+                                  </list>
+                                </option>
+                                <option name="highlightErrors" value="true" />
+                                <option name="index" value="1" />
+                                <option name="trackChanges" value="true" />
+                                <option name="trackLengths" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="name" value="task.py" />
+                                <option name="text" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                    </Task>
+                  </list>
+                </option>
+              </Lesson>
             </list>
           </option>
           <option name="name" value="Sourcebots Programming Tutorial" />
