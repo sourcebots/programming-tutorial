@@ -7,18 +7,11 @@ Programming tutorial for Sourcebots to introduce people to the kits API. As well
 2. Open it in Pycharm EDU
 3. Profit?
 
-
-## Testing
-1. Right click the project in _Tree View_
-2. _Course Creator_ -> _Preview Course_
-3. Create the course in the `test/` subdirectory
-4. Profit?
-
-
 ## Exporting
 1. Right click the project in _Tree View_
 2. _Course Creator_ -> _Generate Course Archive_
 3. Save resulting `Sourcebots_Programming_Tutorial.zip` file
+4. Run `process.sh` script to process course file
 4. Profit?
 
 ## Running Exported Tutorial
