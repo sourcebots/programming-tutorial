@@ -20,9 +20,9 @@
           <option name="courseDirectory" value="$APPLICATION_CONFIG_DIR$/courses/Sourcebots Programming Tutorial-sourcebots-programming-tutorial" />
           <option name="courseMode" value="Course Creator" />
           <option name="courseType" value="PyCharm" />
-          <option name="description" value="Sourcebots Programming Tutorial" />
+          <option name="description" value="Sourcebots Programming Tutorial for Smallpiece 2017" />
           <option name="id" value="0" />
-          <option name="language" value="Python" />
+          <option name="language" value="Python 3.x" />
           <option name="lessons">
             <list>
               <Lesson>
