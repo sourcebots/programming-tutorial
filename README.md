@@ -1,5 +1,7 @@
 # Sourcebots Programming Tutorial
 
+[![CircleCI](https://img.shields.io/circleci/project/github/sourcebots/programming-tutorial.svg?style=flat-square)](https://circleci.com/gh/sourcebots/programming-tutorial/)
+
 Programming tutorial for Sourcebots to introduce people to the kits API. As well as basic tasks to introduce people to the course structure.
 
 ## Installation
