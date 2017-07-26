@@ -1,11 +1,13 @@
 from robot.motor import MotorBoard
 from robo.servo import ServoBoard
 from robot.camera import Camera
+from robot.power import PowerBoard
 
 motor0 = MotorBoard('SB123')
 motor1 = MotorBoard('SB456')
 servo0 = ServoBoard('SBABC')
 camera = Camera('SB789')
+power = PowerBoard('SBDEF')
 
 
 class Robot():
@@ -26,7 +28,13 @@ class Robot():
         0: camera
     }
 
+    power_boards = {
+        'SBDEF': power,
+        0: power
+    }
+
     def __init__(self):
         self.motor_board = self.motor_boards[0]
         self.servo_board = self.servo_boards[0]
+        self.power_board = self.power_boards[0]
         self.camera = self.cameras[0]
