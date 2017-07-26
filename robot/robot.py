@@ -7,8 +7,6 @@ motor1 = MotorBoard('SB456')
 servo0 = ServoBoard('SBABC')
 camera = Camera('SB789')
 
-def get_first(d):
-    return d[list(d.keys())[0]]
 
 class Robot():
     motor_boards = {
@@ -24,10 +22,11 @@ class Robot():
     }
 
     cameras = {
-        'SB789': camera
+        'SB789': camera,
+        0: camera
     }
 
     def __init__(self):
-        self.motor_board = get_first(self.motor_boards)
-        self.servo_board = get_first(self.servo_boards)
-        self.camera = get_first(self.cameras)
+        self.motor_board = self.motor_boards[0]
+        self.servo_board = self.servo_boards[0]
+        self.camera = self.cameras[0]
