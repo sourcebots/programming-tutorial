@@ -1,0 +1,9 @@
+machine:
+  python:
+    version: 3.6.0
+  environment:
+    PYTHONPATH: ${PWD}:${PYTHONPATH}
+
+test:
+  override:
+    - bash scripts/test.sh
