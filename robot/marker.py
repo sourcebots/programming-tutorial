@@ -1,7 +1,5 @@
 import math
-
-WALL = [1, 2, 3]
-TOKEN = [4, 5, 6]
+from robot.game_specific import WALL, TOKEN
 
 class PolarCoord:
     def __init__(self, rot, dist_m):
