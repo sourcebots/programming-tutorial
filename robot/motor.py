@@ -14,6 +14,7 @@ class Motor():
 
     @voltage.setter
     def voltage(self, voltage):
+        assert -1 < voltage < 1
         print("Setting {} on board {} to {}.".format(self.motor_name, self.board._serial, voltage))
         self._voltage = voltage
 

@@ -14,6 +14,7 @@ class Servo():
 
     @position.setter
     def position(self, position):
+        assert -1 < position < 1
         print("Setting servo {} on {} to {} degrees.".format(self.index, self.board._serial, position))
         self._position = position
 
