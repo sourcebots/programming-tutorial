@@ -3,7 +3,7 @@ from test_helper import run_common_tests, failed, passed, import_task_file
 
 def check_position():
     task = import_task_file()
-    if task.board.ports[0].position == 45:
+    if task.board.ports[0].position == -0.25:
         return passed()
     return failed("Position isn't set to 45 degrees")
 
@@ -11,5 +11,3 @@ def check_position():
 if __name__ == '__main__':
     run_common_tests()
     check_position()
-
-
