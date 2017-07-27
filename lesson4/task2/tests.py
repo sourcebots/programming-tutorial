@@ -5,7 +5,7 @@ def check_position():
     task = import_task_file()
     if task.board.ports[0].position == -0.25:
         return passed()
-    return failed("Position isn't set to 45 degrees")
+    return failed("Position incorrect")
 
 
 if __name__ == '__main__':
