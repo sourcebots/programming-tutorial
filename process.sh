@@ -15,7 +15,10 @@ rm -rf test/
 rm -rf .git/
 rm -rf Sourcebots_Programming_Tutorial.zip
 rm -rf **/__pycache__
+rm -rf scripts/
 
+rm -f process.sh
+rm -f circle.yml
 
 echo "> Moving robot stub into tasks..."
 for task in lesson*/**; do
