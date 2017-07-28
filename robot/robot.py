@@ -1,5 +1,5 @@
 from robot.motor import MotorBoard
-from robo.servo import ServoBoard
+from robot.servo import ServoBoard
 from robot.camera import Camera
 from robot.power import PowerBoard
 

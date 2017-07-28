@@ -2,29 +2,29 @@ from robot.marker import Marker
 
 MARKERS = [
     {
-        id: 1,
-        polar: (
+        'id': 1,
+        'polar': (
             (12, 130, 14),
             4.5
         )
     },
     {
-        id: 2,
-        polar: (
+        'id': 2,
+        'polar': (
             (12, -40, 14),
             3.2
         )
     },
     {
-        id: 4,
-        polar: (
+        'id': 4,
+        'polar': (
             (12, -40, 0),
             3.2
         )
     },
     {
-        id: 6,
-        polar: (
+        'id': 6,
+        'polar': (
             (12, 40, 0),
             3.2
         )

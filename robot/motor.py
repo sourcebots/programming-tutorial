@@ -18,7 +18,7 @@ class Motor():
         self._voltage = voltage
 
 
-class MotorBoard()
+class MotorBoard():
     """
         Stub Motor Board
     """

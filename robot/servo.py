@@ -18,7 +18,7 @@ class Servo():
         self._position = position
 
 
-class ServoBoard()
+class ServoBoard():
     """
         Stub Servo Board
     """
@@ -27,4 +27,4 @@ class ServoBoard()
         self._serial = serial
         self.ports = {}
         for i in range(15):
-            self.ports[i] = Servo(i)
+            self.ports[i] = Servo(self, i)
