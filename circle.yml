@@ -7,3 +7,4 @@ machine:
 test:
   override:
     - bash scripts/test.sh
+    - python3 robot/ideal_api.py
