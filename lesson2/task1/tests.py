@@ -1,6 +1,6 @@
 from test_helper import run_common_tests, failed, passed, get_answer_placeholders, import_task_file
 
-from robot.robot import Robot
+from robot import Robot
 
 
 def check_robot():

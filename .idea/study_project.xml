@@ -149,7 +149,7 @@
                                       <option name="index" value="0" />
                                       <option name="initialState" />
                                       <option name="length" value="25" />
-                                      <option name="offset" value="31" />
+                                      <option name="offset" value="25" />
                                       <option name="selected" value="false" />
                                       <option name="subtaskInfos">
                                         <map>
@@ -231,7 +231,7 @@
                                       <option name="index" value="0" />
                                       <option name="initialState" />
                                       <option name="length" value="15" />
-                                      <option name="offset" value="75" />
+                                      <option name="offset" value="69" />
                                       <option name="selected" value="false" />
                                       <option name="subtaskInfos">
                                         <map>
@@ -305,7 +305,7 @@
                                       <option name="index" value="0" />
                                       <option name="initialState" />
                                       <option name="length" value="9" />
-                                      <option name="offset" value="84" />
+                                      <option name="offset" value="78" />
                                       <option name="selected" value="false" />
                                       <option name="subtaskInfos">
                                         <map>
@@ -379,7 +379,7 @@
                                       <option name="index" value="0" />
                                       <option name="initialState" />
                                       <option name="length" value="22" />
-                                      <option name="offset" value="106" />
+                                      <option name="offset" value="100" />
                                       <option name="selected" value="false" />
                                       <option name="subtaskInfos">
                                         <map>
@@ -409,7 +409,7 @@
                                       <option name="index" value="1" />
                                       <option name="initialState" />
                                       <option name="length" value="35" />
-                                      <option name="offset" value="119" />
+                                      <option name="offset" value="113" />
                                       <option name="selected" value="false" />
                                       <option name="subtaskInfos">
                                         <map>
@@ -460,7 +460,18 @@
                   <list>
                     <Task>
                       <option name="activeSubtaskIndex" value="0" />
-                      <option name="adaptiveTaskParameters" />
+                      <option name="adaptiveTaskParameters">
+                        <AdaptiveTaskParameters>
+                          <option name="choiceVariants">
+                            <list />
+                          </option>
+                          <option name="multipleChoice" value="false" />
+                          <option name="selectedVariants">
+                            <list />
+                          </option>
+                          <option name="theoryTask" value="false" />
+                        </AdaptiveTaskParameters>
+                      </option>
                       <option name="index" value="1" />
                       <option name="lastSubtaskIndex" value="0" />
                       <option name="name" value="read" />
@@ -480,7 +491,7 @@
                                       <option name="index" value="0" />
                                       <option name="initialState" />
                                       <option name="length" value="17" />
-                                      <option name="offset" value="75" />
+                                      <option name="offset" value="69" />
                                       <option name="selected" value="false" />
                                       <option name="subtaskInfos">
                                         <map>
@@ -523,7 +534,18 @@
                     </Task>
                     <Task>
                       <option name="activeSubtaskIndex" value="0" />
-                      <option name="adaptiveTaskParameters" />
+                      <option name="adaptiveTaskParameters">
+                        <AdaptiveTaskParameters>
+                          <option name="choiceVariants">
+                            <list />
+                          </option>
+                          <option name="multipleChoice" value="false" />
+                          <option name="selectedVariants">
+                            <list />
+                          </option>
+                          <option name="theoryTask" value="false" />
+                        </AdaptiveTaskParameters>
+                      </option>
                       <option name="index" value="2" />
                       <option name="lastSubtaskIndex" value="0" />
                       <option name="name" value="set_position" />
@@ -543,7 +565,7 @@
                                       <option name="index" value="0" />
                                       <option name="initialState" />
                                       <option name="length" value="9" />
-                                      <option name="offset" value="91" />
+                                      <option name="offset" value="85" />
                                       <option name="selected" value="false" />
                                       <option name="subtaskInfos">
                                         <map>
