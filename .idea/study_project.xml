@@ -305,7 +305,7 @@
                                       <option name="index" value="0" />
                                       <option name="initialState" />
                                       <option name="length" value="9" />
-                                      <option name="offset" value="78" />
+                                      <option name="offset" value="79" />
                                       <option name="selected" value="false" />
                                       <option name="subtaskInfos">
                                         <map>
@@ -315,13 +315,11 @@
                                                 <option name="answer" value="" />
                                                 <option name="hasFrame" value="true" />
                                                 <option name="hints">
-                                                  <list>
-                                                    <option value="Power has a range of between 0 and 100" />
-                                                  </list>
+                                                  <list />
                                                 </option>
                                                 <option name="needInsertText" value="false" />
                                                 <option name="placeholderText" value="type here" />
-                                                <option name="possibleAnswer" value=".m0.voltage = 50" />
+                                                <option name="possibleAnswer" value="m0.voltage = 0.5" />
                                                 <option name="selected" value="false" />
                                                 <option name="status" value="Unchecked" />
                                               </AnswerPlaceholderSubtaskInfo>
@@ -617,7 +615,7 @@
       </option>
       <option name="enableTestingFromSamples" value="false" />
       <option name="toolWindowMode" value="EDITING" />
-      <option name="turnEditingMode" value="true" />
+      <option name="turnEditingMode" value="false" />
       <option name="VERSION" value="4" />
       <option name="myUserTests">
         <map />
