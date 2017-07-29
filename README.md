@@ -7,7 +7,8 @@ Programming tutorial for Sourcebots to introduce people to the kits API. As well
 ## Installation
 1. Clone the project
 2. Open it in Pycharm EDU
-3. Profit?
+3. ???
+4. Profit
 
 ## Exporting
 1. Right click the project in _Tree View_
