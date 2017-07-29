@@ -42,3 +42,5 @@ class Robot():
         self.servo_board = self.servo_boards[0]
         self.power_board = self.power_boards[0]
         self.camera = self.cameras[0]
+        self.zone = 1
+        self.mode = GameMode.COMPETITION
