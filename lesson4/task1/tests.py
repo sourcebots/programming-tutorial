@@ -6,7 +6,7 @@ def test_answer_placeholders():
     if placeholders[0] in ["0", "\"SBABC\"", "'SBABC'"]:
         passed()
     else:
-        failed()
+        failed("Incorrect board index")
 
 
 if __name__ == '__main__':

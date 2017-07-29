@@ -5,7 +5,7 @@ def test_voltage():
     task = import_task_file()
     if task.board.m0._voltage == 0.5:
         return passed()
-    return failed("Voltage was not set to half")
+    return failed("Voltage was not set to half speed forwards")
 
 
 if __name__ == '__main__':

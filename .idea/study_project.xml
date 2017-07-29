@@ -376,8 +376,8 @@
                                     <AnswerPlaceholder>
                                       <option name="index" value="0" />
                                       <option name="initialState" />
-                                      <option name="length" value="22" />
-                                      <option name="offset" value="100" />
+                                      <option name="length" value="5" />
+                                      <option name="offset" value="101" />
                                       <option name="selected" value="false" />
                                       <option name="subtaskInfos">
                                         <map>
@@ -387,12 +387,10 @@
                                                 <option name="answer" value="" />
                                                 <option name="hasFrame" value="true" />
                                                 <option name="hints">
-                                                  <list>
-                                                    <option value="motors index from 0" />
-                                                  </list>
+                                                  <list />
                                                 </option>
                                                 <option name="needInsertText" value="false" />
-                                                <option name="placeholderText" value="select the right motor" />
+                                                <option name="placeholderText" value="motor" />
                                                 <option name="possibleAnswer" value="m1" />
                                                 <option name="selected" value="false" />
                                                 <option name="status" value="Unchecked" />
@@ -406,8 +404,8 @@
                                     <AnswerPlaceholder>
                                       <option name="index" value="1" />
                                       <option name="initialState" />
-                                      <option name="length" value="35" />
-                                      <option name="offset" value="113" />
+                                      <option name="length" value="0" />
+                                      <option name="offset" value="114" />
                                       <option name="selected" value="false" />
                                       <option name="subtaskInfos">
                                         <map>
@@ -420,7 +418,7 @@
                                                   <list />
                                                 </option>
                                                 <option name="needInsertText" value="false" />
-                                                <option name="placeholderText" value="read the value from the first motor" />
+                                                <option name="placeholderText" value="" />
                                                 <option name="possibleAnswer" value="board.m0.voltage" />
                                                 <option name="selected" value="false" />
                                                 <option name="status" value="Unchecked" />

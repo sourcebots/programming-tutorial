@@ -3,11 +3,10 @@ from test_helper import run_common_tests, failed, passed, get_answer_placeholder
 
 def test_answer_placeholders():
     placeholders = get_answer_placeholders()
-    placeholder = placeholders[0]
-    if placeholder in [0, 'SB123']:
+    if placeholders[0] in ["0", "'SB123'", "\"SB123\""]:
         passed()
     else:
-        failed()
+        failed("Incorrect index")
 
 
 if __name__ == '__main__':
