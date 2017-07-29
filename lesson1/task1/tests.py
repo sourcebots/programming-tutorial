@@ -4,14 +4,14 @@ from test_helper import run_common_tests, failed, passed, get_answer_placeholder
 def test_answer_placeholders():
     placeholders = get_answer_placeholders()
     placeholder = placeholders[0]
-    if placeholder == "\"Hello World\"":  # TODO: your condition here
+    if placeholder.lower() in ["\"hello world\"", "'hello world'"]:
         passed()
     else:
-        failed()
+        failed("You didnt print hello world!")
 
 
 if __name__ == '__main__':
     run_common_tests()
-    test_answer_placeholders()       # TODO: uncomment test call
+    test_answer_placeholders()
 
 
