@@ -1,35 +1,13 @@
 from robot.marker import Marker
+from random import randint
 
-MARKERS = [
-    {
-        'id': 1,
-        'polar': (
-            (12, 130, 14),
-            4.5
-        )
-    },
-    {
-        'id': 2,
-        'polar': (
-            (12, -40, 14),
-            3.2
-        )
-    },
-    {
-        'id': 4,
-        'polar': (
-            (12, -40, 0),
-            3.2
-        )
-    },
-    {
-        'id': 6,
-        'polar': (
-            (12, 40, 0),
-            3.2
-        )
-    }
-]
+
+def build_fake_marker():
+    marker_id = randint(1, 6)
+    dist = randint(300, 6000) / 1000
+    coords = tuple([randint(-90, 90) for i in range(3)])
+    return Marker(marker_id, (coords, dist))
+
 
 class Camera:
     def __init__(self, serial):
@@ -37,6 +15,6 @@ class Camera:
 
     def see(self):
         print("Looking for markers...")
-        markers = [Marker(**m) for m in MARKERS]
-        print("Found {} markers!".format(len(markers)))
+        markers = [build_fake_marker() for i in range(randint(0, 6))]
+        print("Found {} markers".format(len(markers)))
         return markers
