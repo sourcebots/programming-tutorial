@@ -3,7 +3,7 @@ from test_helper import run_common_tests, failed, passed, get_answer_placeholder
 
 def test_answer_placeholders():
     placeholders = get_answer_placeholders()
-    if placeholders[0] in [0, "SBABC"]:
+    if placeholders[0] in ["0", "\"SBABC\"", "'SBABC'"]:
         passed()
     else:
         failed()

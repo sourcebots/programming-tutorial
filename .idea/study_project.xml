@@ -562,7 +562,7 @@
                                     <AnswerPlaceholder>
                                       <option name="index" value="0" />
                                       <option name="initialState" />
-                                      <option name="length" value="9" />
+                                      <option name="length" value="5" />
                                       <option name="offset" value="85" />
                                       <option name="selected" value="false" />
                                       <option name="subtaskInfos">
@@ -573,13 +573,67 @@
                                                 <option name="answer" value="" />
                                                 <option name="hasFrame" value="true" />
                                                 <option name="hints">
-                                                  <list>
-                                                    <option value="you can set the angle using the `position` property" />
-                                                  </list>
+                                                  <list />
+                                                </option>
+                                                <option name="needInsertText" value="false" />
+                                                <option name="placeholderText" value="index" />
+                                                <option name="possibleAnswer" value="0" />
+                                                <option name="selected" value="false" />
+                                                <option name="status" value="Unchecked" />
+                                              </AnswerPlaceholderSubtaskInfo>
+                                            </value>
+                                          </entry>
+                                        </map>
+                                      </option>
+                                      <option name="useLength" value="false" />
+                                    </AnswerPlaceholder>
+                                    <AnswerPlaceholder>
+                                      <option name="index" value="1" />
+                                      <option name="initialState" />
+                                      <option name="length" value="5" />
+                                      <option name="offset" value="99" />
+                                      <option name="selected" value="false" />
+                                      <option name="subtaskInfos">
+                                        <map>
+                                          <entry key="0">
+                                            <value>
+                                              <AnswerPlaceholderSubtaskInfo>
+                                                <option name="answer" value="" />
+                                                <option name="hasFrame" value="true" />
+                                                <option name="hints">
+                                                  <list />
+                                                </option>
+                                                <option name="needInsertText" value="false" />
+                                                <option name="placeholderText" value="value" />
+                                                <option name="possibleAnswer" value="-0.25" />
+                                                <option name="selected" value="false" />
+                                                <option name="status" value="Unchecked" />
+                                              </AnswerPlaceholderSubtaskInfo>
+                                            </value>
+                                          </entry>
+                                        </map>
+                                      </option>
+                                      <option name="useLength" value="false" />
+                                    </AnswerPlaceholder>
+                                    <AnswerPlaceholder>
+                                      <option name="index" value="2" />
+                                      <option name="initialState" />
+                                      <option name="length" value="9" />
+                                      <option name="offset" value="88" />
+                                      <option name="selected" value="false" />
+                                      <option name="subtaskInfos">
+                                        <map>
+                                          <entry key="0">
+                                            <value>
+                                              <AnswerPlaceholderSubtaskInfo>
+                                                <option name="answer" value="" />
+                                                <option name="hasFrame" value="true" />
+                                                <option name="hints">
+                                                  <list />
                                                 </option>
                                                 <option name="needInsertText" value="false" />
                                                 <option name="placeholderText" value="type here" />
-                                                <option name="possibleAnswer" value="0].position = 45" />
+                                                <option name="possibleAnswer" value="position" />
                                                 <option name="selected" value="false" />
                                                 <option name="status" value="Unchecked" />
                                               </AnswerPlaceholderSubtaskInfo>
@@ -615,7 +669,7 @@
       </option>
       <option name="enableTestingFromSamples" value="false" />
       <option name="toolWindowMode" value="EDITING" />
-      <option name="turnEditingMode" value="false" />
+      <option name="turnEditingMode" value="true" />
       <option name="VERSION" value="4" />
       <option name="myUserTests">
         <map />
