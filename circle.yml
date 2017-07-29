@@ -8,4 +8,4 @@ test:
   override:
     - bash scripts/test.sh
     - python3 scripts/init.py
-    - python3 robot/ideal_api.py
+    - python3 scripts/ideal_api.py
