@@ -18,7 +18,7 @@ Programming tutorial for Sourcebots to introduce people to the kits API. As well
 4. Run `process.sh` script to process course file
 5. ???
 6. Bees?
-6. Profit!
+7. Profit!
 
 ## Running Exported Tutorial
 1. _Create New Project_ in Pycharm EDU, type _Educational_
