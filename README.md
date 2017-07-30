@@ -8,7 +8,8 @@ Programming tutorial for Sourcebots to introduce people to the kits API. As well
 1. Clone the project
 2. Open it in Pycharm EDU
 3. ???
-4. Profit!!!
+4. Bees?
+5. Profit!
 
 ## Exporting
 1. Right click the project in _Tree View_
@@ -16,14 +17,16 @@ Programming tutorial for Sourcebots to introduce people to the kits API. As well
 3. Save resulting `Sourcebots_Programming_Tutorial.zip` file
 4. Run `process.sh` script to process course file
 5. ???
-4. Profit!!!
+6. Bees?
+6. Profit!
 
 ## Running Exported Tutorial
 1. _Create New Project_ in Pycharm EDU, type _Educational_
 2. Select the cog next to _Courses_, _Add local course_, find the exported `.zip` file.
 3. Click _Create_
 4. ???
-5. Profit!!!
+5. Bees?
+6. Profit!
 
 ## Basic Python Tutorial
 Writing a whole new tutorial for Python isnt worth it, so [here's](https://github.com/sourcebots/programming-tutorial/blob/master/basic.md) some resources to learn basic Python.
