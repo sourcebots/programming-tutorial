@@ -588,34 +588,6 @@
                                     <AnswerPlaceholder>
                                       <option name="index" value="1" />
                                       <option name="initialState" />
-                                      <option name="length" value="5" />
-                                      <option name="offset" value="99" />
-                                      <option name="selected" value="false" />
-                                      <option name="subtaskInfos">
-                                        <map>
-                                          <entry key="0">
-                                            <value>
-                                              <AnswerPlaceholderSubtaskInfo>
-                                                <option name="answer" value="" />
-                                                <option name="hasFrame" value="true" />
-                                                <option name="hints">
-                                                  <list />
-                                                </option>
-                                                <option name="needInsertText" value="false" />
-                                                <option name="placeholderText" value="value" />
-                                                <option name="possibleAnswer" value="-0.25" />
-                                                <option name="selected" value="false" />
-                                                <option name="status" value="Unchecked" />
-                                              </AnswerPlaceholderSubtaskInfo>
-                                            </value>
-                                          </entry>
-                                        </map>
-                                      </option>
-                                      <option name="useLength" value="false" />
-                                    </AnswerPlaceholder>
-                                    <AnswerPlaceholder>
-                                      <option name="index" value="2" />
-                                      <option name="initialState" />
                                       <option name="length" value="9" />
                                       <option name="offset" value="88" />
                                       <option name="selected" value="false" />
@@ -632,6 +604,34 @@
                                                 <option name="needInsertText" value="false" />
                                                 <option name="placeholderText" value="type here" />
                                                 <option name="possibleAnswer" value="position" />
+                                                <option name="selected" value="false" />
+                                                <option name="status" value="Unchecked" />
+                                              </AnswerPlaceholderSubtaskInfo>
+                                            </value>
+                                          </entry>
+                                        </map>
+                                      </option>
+                                      <option name="useLength" value="false" />
+                                    </AnswerPlaceholder>
+                                    <AnswerPlaceholder>
+                                      <option name="index" value="2" />
+                                      <option name="initialState" />
+                                      <option name="length" value="5" />
+                                      <option name="offset" value="99" />
+                                      <option name="selected" value="false" />
+                                      <option name="subtaskInfos">
+                                        <map>
+                                          <entry key="0">
+                                            <value>
+                                              <AnswerPlaceholderSubtaskInfo>
+                                                <option name="answer" value="" />
+                                                <option name="hasFrame" value="true" />
+                                                <option name="hints">
+                                                  <list />
+                                                </option>
+                                                <option name="needInsertText" value="false" />
+                                                <option name="placeholderText" value="value" />
+                                                <option name="possibleAnswer" value="-0.25" />
                                                 <option name="selected" value="false" />
                                                 <option name="status" value="Unchecked" />
                                               </AnswerPlaceholderSubtaskInfo>
@@ -668,7 +668,18 @@
                   <list>
                     <Task>
                       <option name="activeSubtaskIndex" value="0" />
-                      <option name="adaptiveTaskParameters" />
+                      <option name="adaptiveTaskParameters">
+                        <AdaptiveTaskParameters>
+                          <option name="choiceVariants">
+                            <list />
+                          </option>
+                          <option name="multipleChoice" value="false" />
+                          <option name="selectedVariants">
+                            <list />
+                          </option>
+                          <option name="theoryTask" value="false" />
+                        </AdaptiveTaskParameters>
+                      </option>
                       <option name="index" value="1" />
                       <option name="lastSubtaskIndex" value="0" />
                       <option name="name" value="set_power" />
@@ -739,7 +750,18 @@
                   <list>
                     <Task>
                       <option name="activeSubtaskIndex" value="0" />
-                      <option name="adaptiveTaskParameters" />
+                      <option name="adaptiveTaskParameters">
+                        <AdaptiveTaskParameters>
+                          <option name="choiceVariants">
+                            <list />
+                          </option>
+                          <option name="multipleChoice" value="false" />
+                          <option name="selectedVariants">
+                            <list />
+                          </option>
+                          <option name="theoryTask" value="false" />
+                        </AdaptiveTaskParameters>
+                      </option>
                       <option name="index" value="1" />
                       <option name="lastSubtaskIndex" value="0" />
                       <option name="name" value="get_markers" />
@@ -800,7 +822,18 @@
                     </Task>
                     <Task>
                       <option name="activeSubtaskIndex" value="0" />
-                      <option name="adaptiveTaskParameters" />
+                      <option name="adaptiveTaskParameters">
+                        <AdaptiveTaskParameters>
+                          <option name="choiceVariants">
+                            <list />
+                          </option>
+                          <option name="multipleChoice" value="false" />
+                          <option name="selectedVariants">
+                            <list />
+                          </option>
+                          <option name="theoryTask" value="false" />
+                        </AdaptiveTaskParameters>
+                      </option>
                       <option name="index" value="2" />
                       <option name="lastSubtaskIndex" value="0" />
                       <option name="name" value="get_token" />
@@ -871,7 +904,18 @@
                   <list>
                     <Task>
                       <option name="activeSubtaskIndex" value="0" />
-                      <option name="adaptiveTaskParameters" />
+                      <option name="adaptiveTaskParameters">
+                        <AdaptiveTaskParameters>
+                          <option name="choiceVariants">
+                            <list />
+                          </option>
+                          <option name="multipleChoice" value="false" />
+                          <option name="selectedVariants">
+                            <list />
+                          </option>
+                          <option name="theoryTask" value="false" />
+                        </AdaptiveTaskParameters>
+                      </option>
                       <option name="index" value="1" />
                       <option name="lastSubtaskIndex" value="0" />
                       <option name="name" value="zone" />
@@ -932,7 +976,18 @@
                     </Task>
                     <Task>
                       <option name="activeSubtaskIndex" value="0" />
-                      <option name="adaptiveTaskParameters" />
+                      <option name="adaptiveTaskParameters">
+                        <AdaptiveTaskParameters>
+                          <option name="choiceVariants">
+                            <list />
+                          </option>
+                          <option name="multipleChoice" value="false" />
+                          <option name="selectedVariants">
+                            <list />
+                          </option>
+                          <option name="theoryTask" value="false" />
+                        </AdaptiveTaskParameters>
+                      </option>
                       <option name="index" value="2" />
                       <option name="lastSubtaskIndex" value="0" />
                       <option name="name" value="mode" />
