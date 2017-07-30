@@ -12,6 +12,9 @@ Programming tutorial for Sourcebots to introduce people to the kits API. As well
 5. Profit!
 
 ## Exporting
+
+__Note__: This must be built on Windows, checked out with `autocrlf`, because line endings.
+
 1. Right click the project in _Tree View_
 2. _Course Creator_ -> _Generate Course Archive_
 3. Save resulting `Sourcebots_Programming_Tutorial.zip` file
