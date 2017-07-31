@@ -1,12 +1,5 @@
-from robot import Robot, TOKEN
+from robot import Robot
 
 robot = Robot()
 
-markers = robot.camera.see()
-
-token = None
-
-for marker in markers:
-    if marker.id in TOKEN:
-        token = marker
-        break
+mode = robot.mode

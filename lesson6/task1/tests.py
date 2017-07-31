@@ -1,14 +1,14 @@
-from test_helper import run_common_tests, failed, passed, get_answer_placeholders, import_task_file
+from test_helper import run_common_tests, failed, passed, import_task_file
 
-
-def test_marker_list():
+def test_zone():
     task = import_task_file()
-    if type(task.markers) == list:
+    zone = task.zone
+    if zone == 1:
         return passed()
-    return failed("You didn't get any markers")
+    return failed("Incorrect zone")
 
 if __name__ == '__main__':
     run_common_tests()
-
+    test_zone()
 
 
