@@ -15,7 +15,7 @@ assert r.motor_boards[0].m1.voltage == BRAKE
 r.motor_boards[0].m1.voltage = 1
 r.motor_boards[0].m1.voltage = -1
 
-r.servo_boards[0].ports[2].position = -1
+r.servo_boards[0].servos[2].position = -1
 
 # Indexing tokens
 tokens = r.cameras[0].see()

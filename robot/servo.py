@@ -26,6 +26,6 @@ class ServoBoard():
 
     def __init__(self, serial):
         self._serial = serial
-        self.ports = {}
+        self.servos = {}
         for i in range(15):
-            self.ports[i] = Servo(self, i)
+            self.servos[i] = Servo(self, i)
