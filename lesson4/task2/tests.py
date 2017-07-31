@@ -3,7 +3,7 @@ from test_helper import run_common_tests, failed, passed, import_task_file
 
 def check_position():
     task = import_task_file()
-    if task.board.ports[0].position == -0.25:
+    if task.board.servos[0].position == -0.25:
         return passed()
     return failed("Position incorrect")
 
