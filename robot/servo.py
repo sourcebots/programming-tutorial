@@ -15,8 +15,9 @@ class PinValue(Enum):
 
 
 class Gpio():
-    def __init__(self, pin):
+    def __init__(self, board, pin):
         self._pin = pin
+        self._board = board
         self._mode = PinMode.INPUT
 
     @property
@@ -25,7 +26,7 @@ class Gpio():
 
     @mode.setter
     def mode(self, mode):
-        print("Setting GPIO pin {} to {}.".format(self._pin, mode))
+        print("Setting GPIO pin {} on board {} to {}.".format(self._pin, self._board, mode))
         self._mode = mode
 
     def read(self):
