@@ -1,4 +1,0 @@
-<html>
-<p>It might be useful to disable certain things when youre actually running in a competition mode, to possibly speed up your robot.</p>
-<p>Find out what mode your robot is in, and store it in the variable <code>mode</code></p>
-</html>

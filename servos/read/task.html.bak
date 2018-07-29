@@ -1,9 +1,0 @@
-<html>
-<p>To control a servo, first you need to get a servo board</p>
-<p>Set the <code>board</code> variable to the servo board</p>
-
-<p>Available Servo Boards:</p>
-<ul>
-  <li>SBABC</li>
-</ul>
-</html>
