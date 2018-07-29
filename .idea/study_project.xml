@@ -4,55 +4,55 @@
     <StudyTaskManager>
       <option name="course">
         <Course>
-          <option name="adaptive" value="false" />
           <option name="authors">
             <list>
               <StepicUser>
-                <option name="accessToken" />
-                <option name="email" value="" />
+                <option name="accessToken" value="" />
                 <option name="firstName" value="Sourcebots" />
+                <option name="guest" value="false" />
                 <option name="id" value="-1" />
                 <option name="lastName" value="" />
-                <option name="refreshToken" />
+                <option name="refreshToken" value="" />
               </StepicUser>
             </list>
           </option>
-          <option name="courseDirectory" value="$APPLICATION_CONFIG_DIR$/courses/Sourcebots Programming Tutorial-sourcebots-programming-tutorial" />
           <option name="courseMode" value="Course Creator" />
           <option name="courseType" value="PyCharm" />
-          <option name="description" value="Sourcebots Programming Tutorial for Smallpiece 2017" />
-          <option name="id" value="0" />
+          <option name="customPresentableName" />
+          <option name="description" value="SourceBots Programming Tutorial for Smallpiece 2017" />
+          <option name="index" value="-1" />
           <option name="language" value="Python 3.x" />
-          <option name="lessons">
+          <option name="languageCode" value="en" />
+          <option name="name" value="Sourcebots Programming Tutorial" />
+          <option name="stepikChangeStatus" value="UP_TO_DATE" />
+          <option name="items">
             <list>
               <Lesson>
+                <option name="customPresentableName" />
                 <option name="id" value="0" />
                 <option name="index" value="1" />
                 <option name="name" value="basics" />
+                <option name="stepikChangeStatus" value="UP_TO_DATE" />
                 <option name="updateDate" />
                 <option name="taskList">
                   <list>
-                    <Task>
-                      <option name="activeSubtaskIndex" value="0" />
-                      <option name="adaptiveTaskParameters">
-                        <AdaptiveTaskParameters>
-                          <option name="choiceVariants">
-                            <list />
-                          </option>
-                          <option name="multipleChoice" value="false" />
-                          <option name="selectedVariants">
-                            <list />
-                          </option>
-                          <option name="theoryTask" value="false" />
-                        </AdaptiveTaskParameters>
+                    <EduTask>
+                      <option name="additionalFiles">
+                        <map />
                       </option>
+                      <option name="customPresentableName" />
+                      <option name="descriptionFormat" value="HTML" />
+                      <option name="descriptionText" value="&lt;html&gt;&#10;Hellos&#10;&lt;br&gt;&#10;&lt;/html&gt;&#10;" />
                       <option name="index" value="1" />
-                      <option name="lastSubtaskIndex" value="0" />
-                      <option name="name" value="hello world" />
-                      <option name="status" value="Unchecked" />
+                      <option name="name" value="Test Task" />
+                      <option name="status" value="Solved" />
                       <option name="stepId" value="0" />
-                      <option name="text" />
-                      <option name="theoryTask" value="false" />
+                      <option name="stepikChangeStatus" value="UP_TO_DATE" />
+                      <option name="testsText">
+                        <map>
+                          <entry key="tests.py" value="from test_helper import run_common_tests, failed, passed, get_answer_placeholders&#10;&#10;&#10;def test_answer_placeholders():&#10;    placeholders = get_answer_placeholders()&#10;    placeholder = placeholders[0]&#10;    if placeholder == &quot;&quot;:       # TODO: your condition here&#10;        passed()&#10;    else:&#10;        failed()&#10;&#10;&#10;if __name__ == '__main__':&#10;    run_common_tests()&#10;    # test_answer_placeholders()       # TODO: uncomment test call&#10;&#10;&#10;" />
+                        </map>
+                      </option>
                       <option name="updateDate" />
                       <option name="taskFiles">
                         <map>
@@ -62,81 +62,72 @@
                                 <option name="answerPlaceholders">
                                   <list>
                                     <AnswerPlaceholder>
+                                      <option name="hints">
+                                        <list>
+                                          <option value="You need to surround things in quotes" />
+                                        </list>
+                                      </option>
                                       <option name="index" value="0" />
                                       <option name="initialState" />
-                                      <option name="length" value="9" />
-                                      <option name="offset" value="6" />
+                                      <option name="length" value="14" />
+                                      <option name="offset" value="33" />
+                                      <option name="placeholderDependency" />
+                                      <option name="placeholderText" value="Code goes here" />
+                                      <option name="possibleAnswer" value="&quot;Hello World&quot;" />
                                       <option name="selected" value="false" />
-                                      <option name="subtaskInfos">
-                                        <map>
-                                          <entry key="0">
-                                            <value>
-                                              <AnswerPlaceholderSubtaskInfo>
-                                                <option name="answer" value="" />
-                                                <option name="hasFrame" value="true" />
-                                                <option name="hints">
-                                                  <list>
-                                                    <option value="Text should be wrapped in double quotes" />
-                                                  </list>
-                                                </option>
-                                                <option name="needInsertText" value="false" />
-                                                <option name="placeholderText" value="type here" />
-                                                <option name="possibleAnswer" value="&quot;Hello World&quot;" />
-                                                <option name="selected" value="false" />
-                                                <option name="status" value="Unchecked" />
-                                              </AnswerPlaceholderSubtaskInfo>
-                                            </value>
-                                          </entry>
-                                        </map>
-                                      </option>
+                                      <option name="status" value="Solved" />
+                                      <option name="studentAnswer" />
                                       <option name="useLength" value="false" />
                                     </AnswerPlaceholder>
                                   </list>
                                 </option>
-                                <option name="highlightErrors" value="false" />
-                                <option name="index" value="1" />
+                                <option name="highlightErrors" value="true" />
                                 <option name="trackChanges" value="true" />
                                 <option name="trackLengths" value="true" />
                                 <option name="userCreated" value="false" />
                                 <option name="name" value="task.py" />
-                                <option name="text" />
+                                <option name="text" value="# TODO: type solution here&#10;" />
                               </TaskFile>
                             </value>
                           </entry>
                         </map>
                       </option>
-                    </Task>
+                    </EduTask>
                   </list>
                 </option>
+                <option name="unitId" value="0" />
               </Lesson>
               <Lesson>
+                <option name="customPresentableName" />
                 <option name="id" value="0" />
                 <option name="index" value="2" />
                 <option name="name" value="setup" />
+                <option name="stepikChangeStatus" value="UP_TO_DATE" />
                 <option name="updateDate" />
                 <option name="taskList">
                   <list>
-                    <Task>
-                      <option name="activeSubtaskIndex" value="0" />
-                      <option name="adaptiveTaskParameters">
-                        <AdaptiveTaskParameters>
-                          <option name="choiceVariants">
-                            <list />
-                          </option>
-                          <option name="multipleChoice" value="false" />
-                          <option name="selectedVariants">
-                            <list />
-                          </option>
-                          <option name="theoryTask" value="false" />
-                        </AdaptiveTaskParameters>
+                    <ChoiceTask>
+                      <option name="additionalFiles">
+                        <map />
                       </option>
+                      <option name="choiceVariants">
+                        <list />
+                      </option>
+                      <option name="customPresentableName" />
+                      <option name="descriptionFormat" value="HTML" />
+                      <option name="descriptionText" value="&lt;html&gt;&#10;&lt;p&gt;To start, you'll need a robot object!&lt;/p&gt;&#10;&lt;p&gt;Create an instance of the &lt;code&gt;Robot&lt;/code&gt; class and store it in the variable &lt;code&gt;robot&lt;/code&gt;.&lt;/p&gt;&#10;&lt;/html&gt;&#10;" />
                       <option name="index" value="1" />
-                      <option name="lastSubtaskIndex" value="0" />
+                      <option name="multipleChoice" value="false" />
                       <option name="name" value="initialisation" />
-                      <option name="status" value="Solved" />
+                      <option name="selectedVariants">
+                        <list />
+                      </option>
+                      <option name="status" value="Unchecked" />
                       <option name="stepId" value="0" />
-                      <option name="text" />
-                      <option name="theoryTask" value="false" />
+                      <option name="stepikChangeStatus" value="UP_TO_DATE" />
+                      <option name="testsText">
+                        <map />
+                      </option>
                       <option name="updateDate" />
                       <option name="taskFiles">
                         <map>
@@ -146,37 +137,24 @@
                                 <option name="answerPlaceholders">
                                   <list>
                                     <AnswerPlaceholder>
+                                      <option name="hints">
+                                        <list />
+                                      </option>
                                       <option name="index" value="0" />
                                       <option name="initialState" />
                                       <option name="length" value="25" />
                                       <option name="offset" value="25" />
+                                      <option name="placeholderDependency" />
+                                      <option name="placeholderText" value="initialise the robot here" />
+                                      <option name="possibleAnswer" value="robot = Robot()" />
                                       <option name="selected" value="false" />
-                                      <option name="subtaskInfos">
-                                        <map>
-                                          <entry key="0">
-                                            <value>
-                                              <AnswerPlaceholderSubtaskInfo>
-                                                <option name="answer" value="" />
-                                                <option name="hasFrame" value="true" />
-                                                <option name="hints">
-                                                  <list />
-                                                </option>
-                                                <option name="needInsertText" value="false" />
-                                                <option name="placeholderText" value="initialise the robot here" />
-                                                <option name="possibleAnswer" value="robot = Robot()" />
-                                                <option name="selected" value="false" />
-                                                <option name="status" value="Unchecked" />
-                                              </AnswerPlaceholderSubtaskInfo>
-                                            </value>
-                                          </entry>
-                                        </map>
-                                      </option>
+                                      <option name="status" value="Unchecked" />
+                                      <option name="studentAnswer" />
                                       <option name="useLength" value="false" />
                                     </AnswerPlaceholder>
                                   </list>
                                 </option>
                                 <option name="highlightErrors" value="true" />
-                                <option name="index" value="1" />
                                 <option name="trackChanges" value="true" />
                                 <option name="trackLengths" value="true" />
                                 <option name="userCreated" value="false" />
@@ -187,38 +165,42 @@
                           </entry>
                         </map>
                       </option>
-                    </Task>
+                    </ChoiceTask>
                   </list>
                 </option>
+                <option name="unitId" value="0" />
               </Lesson>
               <Lesson>
+                <option name="customPresentableName" />
                 <option name="id" value="0" />
                 <option name="index" value="3" />
                 <option name="name" value="motors" />
+                <option name="stepikChangeStatus" value="UP_TO_DATE" />
                 <option name="updateDate" />
                 <option name="taskList">
                   <list>
-                    <Task>
-                      <option name="activeSubtaskIndex" value="0" />
-                      <option name="adaptiveTaskParameters">
-                        <AdaptiveTaskParameters>
-                          <option name="choiceVariants">
-                            <list />
-                          </option>
-                          <option name="multipleChoice" value="false" />
-                          <option name="selectedVariants">
-                            <list />
-                          </option>
-                          <option name="theoryTask" value="false" />
-                        </AdaptiveTaskParameters>
+                    <ChoiceTask>
+                      <option name="additionalFiles">
+                        <map />
                       </option>
+                      <option name="choiceVariants">
+                        <list />
+                      </option>
+                      <option name="customPresentableName" />
+                      <option name="descriptionFormat" value="HTML" />
+                      <option name="descriptionText" value="&lt;html&gt;&#10;&lt;p&gt;To control the motors, first you need to get a motor board&lt;/p&gt;&#10;&lt;p&gt;Set the &lt;code&gt;board&lt;/code&gt; variable to the first motor board&lt;/p&gt;&#10;&#10;&lt;p&gt;Available Motor Boards:&lt;/p&gt;&#10;&lt;ul&gt;&#10;  &lt;li&gt;SB123&lt;/li&gt;&#10;  &lt;li&gt;SB456&lt;/li&gt;&#10;&lt;/ul&gt;&#10;&lt;/html&gt;&#10;" />
                       <option name="index" value="1" />
-                      <option name="lastSubtaskIndex" value="0" />
+                      <option name="multipleChoice" value="false" />
                       <option name="name" value="read" />
+                      <option name="selectedVariants">
+                        <list />
+                      </option>
                       <option name="status" value="Failed" />
                       <option name="stepId" value="0" />
-                      <option name="text" />
-                      <option name="theoryTask" value="false" />
+                      <option name="stepikChangeStatus" value="UP_TO_DATE" />
+                      <option name="testsText">
+                        <map />
+                      </option>
                       <option name="updateDate" />
                       <option name="taskFiles">
                         <map>
@@ -228,39 +210,26 @@
                                 <option name="answerPlaceholders">
                                   <list>
                                     <AnswerPlaceholder>
+                                      <option name="hints">
+                                        <list>
+                                          <option value="Motor boards can be indexed by either their serial number or order number" />
+                                        </list>
+                                      </option>
                                       <option name="index" value="0" />
                                       <option name="initialState" />
                                       <option name="length" value="15" />
                                       <option name="offset" value="69" />
+                                      <option name="placeholderDependency" />
+                                      <option name="placeholderText" value="motor board key" />
+                                      <option name="possibleAnswer" value="0" />
                                       <option name="selected" value="false" />
-                                      <option name="subtaskInfos">
-                                        <map>
-                                          <entry key="0">
-                                            <value>
-                                              <AnswerPlaceholderSubtaskInfo>
-                                                <option name="answer" value="" />
-                                                <option name="hasFrame" value="true" />
-                                                <option name="hints">
-                                                  <list>
-                                                    <option value="Motor boards can be indexed by either their serial number or order number" />
-                                                  </list>
-                                                </option>
-                                                <option name="needInsertText" value="false" />
-                                                <option name="placeholderText" value="motor board key" />
-                                                <option name="possibleAnswer" value="0" />
-                                                <option name="selected" value="false" />
-                                                <option name="status" value="Failed" />
-                                              </AnswerPlaceholderSubtaskInfo>
-                                            </value>
-                                          </entry>
-                                        </map>
-                                      </option>
+                                      <option name="status" />
+                                      <option name="studentAnswer" />
                                       <option name="useLength" value="false" />
                                     </AnswerPlaceholder>
                                   </list>
                                 </option>
                                 <option name="highlightErrors" value="true" />
-                                <option name="index" value="1" />
                                 <option name="trackChanges" value="true" />
                                 <option name="trackLengths" value="true" />
                                 <option name="userCreated" value="false" />
@@ -271,28 +240,29 @@
                           </entry>
                         </map>
                       </option>
-                    </Task>
-                    <Task>
-                      <option name="activeSubtaskIndex" value="0" />
-                      <option name="adaptiveTaskParameters">
-                        <AdaptiveTaskParameters>
-                          <option name="choiceVariants">
-                            <list />
-                          </option>
-                          <option name="multipleChoice" value="false" />
-                          <option name="selectedVariants">
-                            <list />
-                          </option>
-                          <option name="theoryTask" value="false" />
-                        </AdaptiveTaskParameters>
+                    </ChoiceTask>
+                    <ChoiceTask>
+                      <option name="additionalFiles">
+                        <map />
                       </option>
+                      <option name="choiceVariants">
+                        <list />
+                      </option>
+                      <option name="customPresentableName" />
+                      <option name="descriptionFormat" value="HTML" />
+                      <option name="descriptionText" value="&lt;html&gt;&#10;&lt;p&gt;Time to turn on a motor!&lt;/p&gt;&#10;&lt;p&gt;Set the voltage of motor 0 to half power, forwards&lt;/p&gt;&#10;&lt;br&gt;&#10;&lt;/html&gt;&#10;" />
                       <option name="index" value="2" />
-                      <option name="lastSubtaskIndex" value="0" />
+                      <option name="multipleChoice" value="false" />
                       <option name="name" value="set power" />
+                      <option name="selectedVariants">
+                        <list />
+                      </option>
                       <option name="status" value="Unchecked" />
                       <option name="stepId" value="0" />
-                      <option name="text" />
-                      <option name="theoryTask" value="false" />
+                      <option name="stepikChangeStatus" value="UP_TO_DATE" />
+                      <option name="testsText">
+                        <map />
+                      </option>
                       <option name="updateDate" />
                       <option name="taskFiles">
                         <map>
@@ -302,37 +272,24 @@
                                 <option name="answerPlaceholders">
                                   <list>
                                     <AnswerPlaceholder>
+                                      <option name="hints">
+                                        <list />
+                                      </option>
                                       <option name="index" value="0" />
                                       <option name="initialState" />
                                       <option name="length" value="9" />
                                       <option name="offset" value="79" />
+                                      <option name="placeholderDependency" />
+                                      <option name="placeholderText" value="type here" />
+                                      <option name="possibleAnswer" value="m0.voltage = 0.5" />
                                       <option name="selected" value="false" />
-                                      <option name="subtaskInfos">
-                                        <map>
-                                          <entry key="0">
-                                            <value>
-                                              <AnswerPlaceholderSubtaskInfo>
-                                                <option name="answer" value="" />
-                                                <option name="hasFrame" value="true" />
-                                                <option name="hints">
-                                                  <list />
-                                                </option>
-                                                <option name="needInsertText" value="false" />
-                                                <option name="placeholderText" value="type here" />
-                                                <option name="possibleAnswer" value="m0.voltage = 0.5" />
-                                                <option name="selected" value="false" />
-                                                <option name="status" value="Unchecked" />
-                                              </AnswerPlaceholderSubtaskInfo>
-                                            </value>
-                                          </entry>
-                                        </map>
-                                      </option>
+                                      <option name="status" />
+                                      <option name="studentAnswer" />
                                       <option name="useLength" value="false" />
                                     </AnswerPlaceholder>
                                   </list>
                                 </option>
                                 <option name="highlightErrors" value="true" />
-                                <option name="index" value="1" />
                                 <option name="trackChanges" value="true" />
                                 <option name="trackLengths" value="true" />
                                 <option name="userCreated" value="false" />
@@ -343,28 +300,29 @@
                           </entry>
                         </map>
                       </option>
-                    </Task>
-                    <Task>
-                      <option name="activeSubtaskIndex" value="0" />
-                      <option name="adaptiveTaskParameters">
-                        <AdaptiveTaskParameters>
-                          <option name="choiceVariants">
-                            <list />
-                          </option>
-                          <option name="multipleChoice" value="false" />
-                          <option name="selectedVariants">
-                            <list />
-                          </option>
-                          <option name="theoryTask" value="false" />
-                        </AdaptiveTaskParameters>
+                    </ChoiceTask>
+                    <ChoiceTask>
+                      <option name="additionalFiles">
+                        <map />
                       </option>
+                      <option name="choiceVariants">
+                        <list />
+                      </option>
+                      <option name="customPresentableName" />
+                      <option name="descriptionFormat" value="HTML" />
+                      <option name="descriptionText" value="&lt;html&gt;&#10;&lt;p&gt;Sometimes you may want to read the power level too&lt;/p&gt;&#10;&lt;p&gt;Set the power of the second motor to the value of the first, without hardcoding the value&lt;/p&gt;&#10;&lt;br&gt;&#10;&lt;/html&gt;&#10;" />
                       <option name="index" value="3" />
-                      <option name="lastSubtaskIndex" value="0" />
+                      <option name="multipleChoice" value="false" />
                       <option name="name" value="read_power" />
+                      <option name="selectedVariants">
+                        <list />
+                      </option>
                       <option name="status" value="Unchecked" />
                       <option name="stepId" value="0" />
-                      <option name="text" />
-                      <option name="theoryTask" value="false" />
+                      <option name="stepikChangeStatus" value="UP_TO_DATE" />
+                      <option name="testsText">
+                        <map />
+                      </option>
                       <option name="updateDate" />
                       <option name="taskFiles">
                         <map>
@@ -374,65 +332,40 @@
                                 <option name="answerPlaceholders">
                                   <list>
                                     <AnswerPlaceholder>
+                                      <option name="hints">
+                                        <list />
+                                      </option>
                                       <option name="index" value="0" />
                                       <option name="initialState" />
                                       <option name="length" value="5" />
                                       <option name="offset" value="101" />
+                                      <option name="placeholderDependency" />
+                                      <option name="placeholderText" value="motor" />
+                                      <option name="possibleAnswer" value="m1" />
                                       <option name="selected" value="false" />
-                                      <option name="subtaskInfos">
-                                        <map>
-                                          <entry key="0">
-                                            <value>
-                                              <AnswerPlaceholderSubtaskInfo>
-                                                <option name="answer" value="" />
-                                                <option name="hasFrame" value="true" />
-                                                <option name="hints">
-                                                  <list />
-                                                </option>
-                                                <option name="needInsertText" value="false" />
-                                                <option name="placeholderText" value="motor" />
-                                                <option name="possibleAnswer" value="m1" />
-                                                <option name="selected" value="false" />
-                                                <option name="status" value="Unchecked" />
-                                              </AnswerPlaceholderSubtaskInfo>
-                                            </value>
-                                          </entry>
-                                        </map>
-                                      </option>
+                                      <option name="status" />
+                                      <option name="studentAnswer" />
                                       <option name="useLength" value="false" />
                                     </AnswerPlaceholder>
                                     <AnswerPlaceholder>
+                                      <option name="hints">
+                                        <list />
+                                      </option>
                                       <option name="index" value="1" />
                                       <option name="initialState" />
                                       <option name="length" value="0" />
                                       <option name="offset" value="114" />
+                                      <option name="placeholderDependency" />
+                                      <option name="placeholderText" value="" />
+                                      <option name="possibleAnswer" value="board.m0.voltage" />
                                       <option name="selected" value="false" />
-                                      <option name="subtaskInfos">
-                                        <map>
-                                          <entry key="0">
-                                            <value>
-                                              <AnswerPlaceholderSubtaskInfo>
-                                                <option name="answer" value="" />
-                                                <option name="hasFrame" value="true" />
-                                                <option name="hints">
-                                                  <list />
-                                                </option>
-                                                <option name="needInsertText" value="false" />
-                                                <option name="placeholderText" value="" />
-                                                <option name="possibleAnswer" value="board.m0.voltage" />
-                                                <option name="selected" value="false" />
-                                                <option name="status" value="Unchecked" />
-                                              </AnswerPlaceholderSubtaskInfo>
-                                            </value>
-                                          </entry>
-                                        </map>
-                                      </option>
+                                      <option name="status" />
+                                      <option name="studentAnswer" />
                                       <option name="useLength" value="false" />
                                     </AnswerPlaceholder>
                                   </list>
                                 </option>
                                 <option name="highlightErrors" value="true" />
-                                <option name="index" value="1" />
                                 <option name="trackChanges" value="true" />
                                 <option name="trackLengths" value="true" />
                                 <option name="userCreated" value="false" />
@@ -443,38 +376,42 @@
                           </entry>
                         </map>
                       </option>
-                    </Task>
+                    </ChoiceTask>
                   </list>
                 </option>
+                <option name="unitId" value="0" />
               </Lesson>
               <Lesson>
+                <option name="customPresentableName" />
                 <option name="id" value="0" />
                 <option name="index" value="4" />
                 <option name="name" value="servos" />
+                <option name="stepikChangeStatus" value="UP_TO_DATE" />
                 <option name="updateDate" />
                 <option name="taskList">
                   <list>
-                    <Task>
-                      <option name="activeSubtaskIndex" value="0" />
-                      <option name="adaptiveTaskParameters">
-                        <AdaptiveTaskParameters>
-                          <option name="choiceVariants">
-                            <list />
-                          </option>
-                          <option name="multipleChoice" value="false" />
-                          <option name="selectedVariants">
-                            <list />
-                          </option>
-                          <option name="theoryTask" value="false" />
-                        </AdaptiveTaskParameters>
+                    <ChoiceTask>
+                      <option name="additionalFiles">
+                        <map />
                       </option>
+                      <option name="choiceVariants">
+                        <list />
+                      </option>
+                      <option name="customPresentableName" />
+                      <option name="descriptionFormat" value="HTML" />
+                      <option name="descriptionText" value="&lt;html&gt;&#10;&lt;p&gt;To control a servo, first you need to get a servo board&lt;/p&gt;&#10;&lt;p&gt;Set the &lt;code&gt;board&lt;/code&gt; variable to the servo board&lt;/p&gt;&#10;&#10;&lt;p&gt;Available Servo Boards:&lt;/p&gt;&#10;&lt;ul&gt;&#10;  &lt;li&gt;SBABC&lt;/li&gt;&#10;&lt;/ul&gt;&#10;&lt;/html&gt;&#10;" />
                       <option name="index" value="1" />
-                      <option name="lastSubtaskIndex" value="0" />
+                      <option name="multipleChoice" value="false" />
                       <option name="name" value="read" />
+                      <option name="selectedVariants">
+                        <list />
+                      </option>
                       <option name="status" value="Unchecked" />
                       <option name="stepId" value="0" />
-                      <option name="text" />
-                      <option name="theoryTask" value="false" />
+                      <option name="stepikChangeStatus" value="UP_TO_DATE" />
+                      <option name="testsText">
+                        <map />
+                      </option>
                       <option name="updateDate" />
                       <option name="taskFiles">
                         <map>
@@ -484,39 +421,26 @@
                                 <option name="answerPlaceholders">
                                   <list>
                                     <AnswerPlaceholder>
+                                      <option name="hints">
+                                        <list>
+                                          <option value="Servo boards can be indexed by either their serial number or order number" />
+                                        </list>
+                                      </option>
                                       <option name="index" value="0" />
                                       <option name="initialState" />
                                       <option name="length" value="17" />
                                       <option name="offset" value="69" />
+                                      <option name="placeholderDependency" />
+                                      <option name="placeholderText" value="servo board index" />
+                                      <option name="possibleAnswer" value="0" />
                                       <option name="selected" value="false" />
-                                      <option name="subtaskInfos">
-                                        <map>
-                                          <entry key="0">
-                                            <value>
-                                              <AnswerPlaceholderSubtaskInfo>
-                                                <option name="answer" value="" />
-                                                <option name="hasFrame" value="true" />
-                                                <option name="hints">
-                                                  <list>
-                                                    <option value="Servo boards can be indexed by either their serial number or order number" />
-                                                  </list>
-                                                </option>
-                                                <option name="needInsertText" value="false" />
-                                                <option name="placeholderText" value="servo board index" />
-                                                <option name="possibleAnswer" value="0" />
-                                                <option name="selected" value="false" />
-                                                <option name="status" value="Unchecked" />
-                                              </AnswerPlaceholderSubtaskInfo>
-                                            </value>
-                                          </entry>
-                                        </map>
-                                      </option>
+                                      <option name="status" />
+                                      <option name="studentAnswer" />
                                       <option name="useLength" value="false" />
                                     </AnswerPlaceholder>
                                   </list>
                                 </option>
                                 <option name="highlightErrors" value="true" />
-                                <option name="index" value="1" />
                                 <option name="trackChanges" value="true" />
                                 <option name="trackLengths" value="true" />
                                 <option name="userCreated" value="false" />
@@ -527,28 +451,29 @@
                           </entry>
                         </map>
                       </option>
-                    </Task>
-                    <Task>
-                      <option name="activeSubtaskIndex" value="0" />
-                      <option name="adaptiveTaskParameters">
-                        <AdaptiveTaskParameters>
-                          <option name="choiceVariants">
-                            <list />
-                          </option>
-                          <option name="multipleChoice" value="false" />
-                          <option name="selectedVariants">
-                            <list />
-                          </option>
-                          <option name="theoryTask" value="false" />
-                        </AdaptiveTaskParameters>
+                    </ChoiceTask>
+                    <ChoiceTask>
+                      <option name="additionalFiles">
+                        <map />
                       </option>
+                      <option name="choiceVariants">
+                        <list />
+                      </option>
+                      <option name="customPresentableName" />
+                      <option name="descriptionFormat" value="HTML" />
+                      <option name="descriptionText" value="&lt;html&gt;&#10;&lt;p&gt;Time to control a servo!&lt;/p&gt;&#10;&lt;p&gt;Set the power of the servo to a quarter, backwards&lt;/p&gt;&#10;&lt;/html&gt;&#10;" />
                       <option name="index" value="2" />
-                      <option name="lastSubtaskIndex" value="0" />
+                      <option name="multipleChoice" value="false" />
                       <option name="name" value="set_position" />
+                      <option name="selectedVariants">
+                        <list />
+                      </option>
                       <option name="status" value="Unchecked" />
                       <option name="stepId" value="0" />
-                      <option name="text" />
-                      <option name="theoryTask" value="false" />
+                      <option name="stepikChangeStatus" value="UP_TO_DATE" />
+                      <option name="testsText">
+                        <map />
+                      </option>
                       <option name="updateDate" />
                       <option name="taskFiles">
                         <map>
@@ -558,93 +483,56 @@
                                 <option name="answerPlaceholders">
                                   <list>
                                     <AnswerPlaceholder>
+                                      <option name="hints">
+                                        <list />
+                                      </option>
                                       <option name="index" value="0" />
                                       <option name="initialState" />
                                       <option name="length" value="5" />
                                       <option name="offset" value="85" />
+                                      <option name="placeholderDependency" />
+                                      <option name="placeholderText" value="index" />
+                                      <option name="possibleAnswer" value="0" />
                                       <option name="selected" value="false" />
-                                      <option name="subtaskInfos">
-                                        <map>
-                                          <entry key="0">
-                                            <value>
-                                              <AnswerPlaceholderSubtaskInfo>
-                                                <option name="answer" value="" />
-                                                <option name="hasFrame" value="true" />
-                                                <option name="hints">
-                                                  <list />
-                                                </option>
-                                                <option name="needInsertText" value="false" />
-                                                <option name="placeholderText" value="index" />
-                                                <option name="possibleAnswer" value="0" />
-                                                <option name="selected" value="false" />
-                                                <option name="status" value="Unchecked" />
-                                              </AnswerPlaceholderSubtaskInfo>
-                                            </value>
-                                          </entry>
-                                        </map>
-                                      </option>
+                                      <option name="status" />
+                                      <option name="studentAnswer" />
                                       <option name="useLength" value="false" />
                                     </AnswerPlaceholder>
                                     <AnswerPlaceholder>
+                                      <option name="hints">
+                                        <list />
+                                      </option>
                                       <option name="index" value="1" />
                                       <option name="initialState" />
                                       <option name="length" value="9" />
                                       <option name="offset" value="88" />
+                                      <option name="placeholderDependency" />
+                                      <option name="placeholderText" value="type here" />
+                                      <option name="possibleAnswer" value="position" />
                                       <option name="selected" value="false" />
-                                      <option name="subtaskInfos">
-                                        <map>
-                                          <entry key="0">
-                                            <value>
-                                              <AnswerPlaceholderSubtaskInfo>
-                                                <option name="answer" value="" />
-                                                <option name="hasFrame" value="true" />
-                                                <option name="hints">
-                                                  <list />
-                                                </option>
-                                                <option name="needInsertText" value="false" />
-                                                <option name="placeholderText" value="type here" />
-                                                <option name="possibleAnswer" value="position" />
-                                                <option name="selected" value="false" />
-                                                <option name="status" value="Unchecked" />
-                                              </AnswerPlaceholderSubtaskInfo>
-                                            </value>
-                                          </entry>
-                                        </map>
-                                      </option>
+                                      <option name="status" />
+                                      <option name="studentAnswer" />
                                       <option name="useLength" value="false" />
                                     </AnswerPlaceholder>
                                     <AnswerPlaceholder>
+                                      <option name="hints">
+                                        <list />
+                                      </option>
                                       <option name="index" value="2" />
                                       <option name="initialState" />
                                       <option name="length" value="5" />
                                       <option name="offset" value="99" />
+                                      <option name="placeholderDependency" />
+                                      <option name="placeholderText" value="value" />
+                                      <option name="possibleAnswer" value="-0.25" />
                                       <option name="selected" value="false" />
-                                      <option name="subtaskInfos">
-                                        <map>
-                                          <entry key="0">
-                                            <value>
-                                              <AnswerPlaceholderSubtaskInfo>
-                                                <option name="answer" value="" />
-                                                <option name="hasFrame" value="true" />
-                                                <option name="hints">
-                                                  <list />
-                                                </option>
-                                                <option name="needInsertText" value="false" />
-                                                <option name="placeholderText" value="value" />
-                                                <option name="possibleAnswer" value="-0.25" />
-                                                <option name="selected" value="false" />
-                                                <option name="status" value="Unchecked" />
-                                              </AnswerPlaceholderSubtaskInfo>
-                                            </value>
-                                          </entry>
-                                        </map>
-                                      </option>
+                                      <option name="status" />
+                                      <option name="studentAnswer" />
                                       <option name="useLength" value="false" />
                                     </AnswerPlaceholder>
                                   </list>
                                 </option>
                                 <option name="highlightErrors" value="true" />
-                                <option name="index" value="1" />
                                 <option name="trackChanges" value="true" />
                                 <option name="trackLengths" value="true" />
                                 <option name="userCreated" value="false" />
@@ -655,38 +543,42 @@
                           </entry>
                         </map>
                       </option>
-                    </Task>
+                    </ChoiceTask>
                   </list>
                 </option>
+                <option name="unitId" value="0" />
               </Lesson>
               <Lesson>
+                <option name="customPresentableName" />
                 <option name="id" value="0" />
                 <option name="index" value="5" />
                 <option name="name" value="power" />
+                <option name="stepikChangeStatus" value="UP_TO_DATE" />
                 <option name="updateDate" />
                 <option name="taskList">
                   <list>
-                    <Task>
-                      <option name="activeSubtaskIndex" value="0" />
-                      <option name="adaptiveTaskParameters">
-                        <AdaptiveTaskParameters>
-                          <option name="choiceVariants">
-                            <list />
-                          </option>
-                          <option name="multipleChoice" value="false" />
-                          <option name="selectedVariants">
-                            <list />
-                          </option>
-                          <option name="theoryTask" value="false" />
-                        </AdaptiveTaskParameters>
+                    <ChoiceTask>
+                      <option name="additionalFiles">
+                        <map />
                       </option>
+                      <option name="choiceVariants">
+                        <list />
+                      </option>
+                      <option name="customPresentableName" />
+                      <option name="descriptionFormat" value="HTML" />
+                      <option name="descriptionText" value="&lt;html&gt;&#10;&lt;p&gt;Time to control the power board&lt;/p&gt;&#10;&lt;p&gt;Turn the inputs of the power board on&lt;/p&gt;&#10;&lt;br&gt;&#10;&lt;/html&gt;&#10;" />
                       <option name="index" value="1" />
-                      <option name="lastSubtaskIndex" value="0" />
+                      <option name="multipleChoice" value="false" />
                       <option name="name" value="set_power" />
+                      <option name="selectedVariants">
+                        <list />
+                      </option>
                       <option name="status" value="Unchecked" />
                       <option name="stepId" value="0" />
-                      <option name="text" />
-                      <option name="theoryTask" value="false" />
+                      <option name="stepikChangeStatus" value="UP_TO_DATE" />
+                      <option name="testsText">
+                        <map />
+                      </option>
                       <option name="updateDate" />
                       <option name="taskFiles">
                         <map>
@@ -696,37 +588,24 @@
                                 <option name="answerPlaceholders">
                                   <list>
                                     <AnswerPlaceholder>
+                                      <option name="hints">
+                                        <list />
+                                      </option>
                                       <option name="index" value="0" />
                                       <option name="initialState" />
                                       <option name="length" value="9" />
                                       <option name="offset" value="75" />
+                                      <option name="placeholderDependency" />
+                                      <option name="placeholderText" value="type here" />
+                                      <option name="possibleAnswer" value="power_on()" />
                                       <option name="selected" value="false" />
-                                      <option name="subtaskInfos">
-                                        <map>
-                                          <entry key="0">
-                                            <value>
-                                              <AnswerPlaceholderSubtaskInfo>
-                                                <option name="answer" value="" />
-                                                <option name="hasFrame" value="true" />
-                                                <option name="hints">
-                                                  <list />
-                                                </option>
-                                                <option name="needInsertText" value="false" />
-                                                <option name="placeholderText" value="type here" />
-                                                <option name="possibleAnswer" value="power_on()" />
-                                                <option name="selected" value="false" />
-                                                <option name="status" value="Unchecked" />
-                                              </AnswerPlaceholderSubtaskInfo>
-                                            </value>
-                                          </entry>
-                                        </map>
-                                      </option>
+                                      <option name="status" />
+                                      <option name="studentAnswer" />
                                       <option name="useLength" value="false" />
                                     </AnswerPlaceholder>
                                   </list>
                                 </option>
                                 <option name="highlightErrors" value="true" />
-                                <option name="index" value="1" />
                                 <option name="trackChanges" value="true" />
                                 <option name="trackLengths" value="true" />
                                 <option name="userCreated" value="false" />
@@ -737,38 +616,42 @@
                           </entry>
                         </map>
                       </option>
-                    </Task>
+                    </ChoiceTask>
                   </list>
                 </option>
+                <option name="unitId" value="0" />
               </Lesson>
               <Lesson>
+                <option name="customPresentableName" />
                 <option name="id" value="0" />
                 <option name="index" value="6" />
                 <option name="name" value="vision" />
+                <option name="stepikChangeStatus" value="UP_TO_DATE" />
                 <option name="updateDate" />
                 <option name="taskList">
                   <list>
-                    <Task>
-                      <option name="activeSubtaskIndex" value="0" />
-                      <option name="adaptiveTaskParameters">
-                        <AdaptiveTaskParameters>
-                          <option name="choiceVariants">
-                            <list />
-                          </option>
-                          <option name="multipleChoice" value="false" />
-                          <option name="selectedVariants">
-                            <list />
-                          </option>
-                          <option name="theoryTask" value="false" />
-                        </AdaptiveTaskParameters>
+                    <ChoiceTask>
+                      <option name="additionalFiles">
+                        <map />
                       </option>
+                      <option name="choiceVariants">
+                        <list />
+                      </option>
+                      <option name="customPresentableName" />
+                      <option name="descriptionFormat" value="HTML" />
+                      <option name="descriptionText" value="&lt;html&gt;&#10;&lt;p&gt;Your robot can see using the attached webcam.&lt;/p&gt;&#10;&lt;p&gt;Look for markers, and store them in &lt;code&gt;markers&lt;/code&gt;.&lt;/p&gt;&#10;&lt;br&gt;&#10;&lt;/html&gt;&#10;" />
                       <option name="index" value="1" />
-                      <option name="lastSubtaskIndex" value="0" />
+                      <option name="multipleChoice" value="false" />
                       <option name="name" value="get_markers" />
+                      <option name="selectedVariants">
+                        <list />
+                      </option>
                       <option name="status" value="Unchecked" />
                       <option name="stepId" value="0" />
-                      <option name="text" />
-                      <option name="theoryTask" value="false" />
+                      <option name="stepikChangeStatus" value="UP_TO_DATE" />
+                      <option name="testsText">
+                        <map />
+                      </option>
                       <option name="updateDate" />
                       <option name="taskFiles">
                         <map>
@@ -778,37 +661,24 @@
                                 <option name="answerPlaceholders">
                                   <list>
                                     <AnswerPlaceholder>
+                                      <option name="hints">
+                                        <list />
+                                      </option>
                                       <option name="index" value="0" />
                                       <option name="initialState" />
                                       <option name="length" value="9" />
                                       <option name="offset" value="52" />
+                                      <option name="placeholderDependency" />
+                                      <option name="placeholderText" value="type here" />
+                                      <option name="possibleAnswer" value="robot.camera.see()" />
                                       <option name="selected" value="false" />
-                                      <option name="subtaskInfos">
-                                        <map>
-                                          <entry key="0">
-                                            <value>
-                                              <AnswerPlaceholderSubtaskInfo>
-                                                <option name="answer" value="" />
-                                                <option name="hasFrame" value="true" />
-                                                <option name="hints">
-                                                  <list />
-                                                </option>
-                                                <option name="needInsertText" value="false" />
-                                                <option name="placeholderText" value="type here" />
-                                                <option name="possibleAnswer" value="robot.camera.see()" />
-                                                <option name="selected" value="false" />
-                                                <option name="status" value="Unchecked" />
-                                              </AnswerPlaceholderSubtaskInfo>
-                                            </value>
-                                          </entry>
-                                        </map>
-                                      </option>
+                                      <option name="status" />
+                                      <option name="studentAnswer" />
                                       <option name="useLength" value="false" />
                                     </AnswerPlaceholder>
                                   </list>
                                 </option>
                                 <option name="highlightErrors" value="true" />
-                                <option name="index" value="1" />
                                 <option name="trackChanges" value="true" />
                                 <option name="trackLengths" value="true" />
                                 <option name="userCreated" value="false" />
@@ -819,28 +689,29 @@
                           </entry>
                         </map>
                       </option>
-                    </Task>
-                    <Task>
-                      <option name="activeSubtaskIndex" value="0" />
-                      <option name="adaptiveTaskParameters">
-                        <AdaptiveTaskParameters>
-                          <option name="choiceVariants">
-                            <list />
-                          </option>
-                          <option name="multipleChoice" value="false" />
-                          <option name="selectedVariants">
-                            <list />
-                          </option>
-                          <option name="theoryTask" value="false" />
-                        </AdaptiveTaskParameters>
+                    </ChoiceTask>
+                    <ChoiceTask>
+                      <option name="additionalFiles">
+                        <map />
                       </option>
+                      <option name="choiceVariants">
+                        <list />
+                      </option>
+                      <option name="customPresentableName" />
+                      <option name="descriptionFormat" value="HTML" />
+                      <option name="descriptionText" value="&lt;html&gt;&#10;&lt;p&gt;From all the tokens you can see, you may only want the ones attached to tokens&lt;/p&gt;&#10;&lt;p&gt;From the list of markers, get one that's a token, and store it in &lt;code&gt;token&lt;/code&gt;.&lt;/p&gt;&#10;&lt;/html&gt;&#10;" />
                       <option name="index" value="2" />
-                      <option name="lastSubtaskIndex" value="0" />
+                      <option name="multipleChoice" value="false" />
                       <option name="name" value="get_token" />
+                      <option name="selectedVariants">
+                        <list />
+                      </option>
                       <option name="status" value="Unchecked" />
                       <option name="stepId" value="0" />
-                      <option name="text" />
-                      <option name="theoryTask" value="false" />
+                      <option name="stepikChangeStatus" value="UP_TO_DATE" />
+                      <option name="testsText">
+                        <map />
+                      </option>
                       <option name="updateDate" />
                       <option name="taskFiles">
                         <map>
@@ -850,37 +721,24 @@
                                 <option name="answerPlaceholders">
                                   <list>
                                     <AnswerPlaceholder>
+                                      <option name="hints">
+                                        <list />
+                                      </option>
                                       <option name="index" value="0" />
                                       <option name="initialState" />
                                       <option name="length" value="9" />
                                       <option name="offset" value="120" />
+                                      <option name="placeholderDependency" />
+                                      <option name="placeholderText" value="type here" />
+                                      <option name="possibleAnswer" value="if marker.id in TOKEN:&#10;        token = marker&#10;        break" />
                                       <option name="selected" value="false" />
-                                      <option name="subtaskInfos">
-                                        <map>
-                                          <entry key="0">
-                                            <value>
-                                              <AnswerPlaceholderSubtaskInfo>
-                                                <option name="answer" value="" />
-                                                <option name="hasFrame" value="true" />
-                                                <option name="hints">
-                                                  <list />
-                                                </option>
-                                                <option name="needInsertText" value="false" />
-                                                <option name="placeholderText" value="type here" />
-                                                <option name="possibleAnswer" value="if marker.id in TOKEN:&#10;        token = marker&#10;        break" />
-                                                <option name="selected" value="false" />
-                                                <option name="status" value="Unchecked" />
-                                              </AnswerPlaceholderSubtaskInfo>
-                                            </value>
-                                          </entry>
-                                        </map>
-                                      </option>
+                                      <option name="status" />
+                                      <option name="studentAnswer" />
                                       <option name="useLength" value="false" />
                                     </AnswerPlaceholder>
                                   </list>
                                 </option>
                                 <option name="highlightErrors" value="true" />
-                                <option name="index" value="1" />
                                 <option name="trackChanges" value="true" />
                                 <option name="trackLengths" value="true" />
                                 <option name="userCreated" value="false" />
@@ -891,38 +749,42 @@
                           </entry>
                         </map>
                       </option>
-                    </Task>
+                    </ChoiceTask>
                   </list>
                 </option>
+                <option name="unitId" value="0" />
               </Lesson>
               <Lesson>
+                <option name="customPresentableName" />
                 <option name="id" value="0" />
                 <option name="index" value="7" />
                 <option name="name" value="game" />
+                <option name="stepikChangeStatus" value="UP_TO_DATE" />
                 <option name="updateDate" />
                 <option name="taskList">
                   <list>
-                    <Task>
-                      <option name="activeSubtaskIndex" value="0" />
-                      <option name="adaptiveTaskParameters">
-                        <AdaptiveTaskParameters>
-                          <option name="choiceVariants">
-                            <list />
-                          </option>
-                          <option name="multipleChoice" value="false" />
-                          <option name="selectedVariants">
-                            <list />
-                          </option>
-                          <option name="theoryTask" value="false" />
-                        </AdaptiveTaskParameters>
+                    <ChoiceTask>
+                      <option name="additionalFiles">
+                        <map />
                       </option>
+                      <option name="choiceVariants">
+                        <list />
+                      </option>
+                      <option name="customPresentableName" />
+                      <option name="descriptionFormat" value="HTML" />
+                      <option name="descriptionText" value="&lt;html&gt;&#10;&lt;p&gt;When starting your match, it's useful to know what zone youre starting in&lt;/p&gt;&#10;&lt;p&gt;Get the zone of your robot and store it in the variable &lt;code&gt;zone&lt;/code&gt;.&lt;/p&gt;&#10;&lt;/html&gt;&#10;" />
                       <option name="index" value="1" />
-                      <option name="lastSubtaskIndex" value="0" />
+                      <option name="multipleChoice" value="false" />
                       <option name="name" value="zone" />
+                      <option name="selectedVariants">
+                        <list />
+                      </option>
                       <option name="status" value="Unchecked" />
                       <option name="stepId" value="0" />
-                      <option name="text" />
-                      <option name="theoryTask" value="false" />
+                      <option name="stepikChangeStatus" value="UP_TO_DATE" />
+                      <option name="testsText">
+                        <map />
+                      </option>
                       <option name="updateDate" />
                       <option name="taskFiles">
                         <map>
@@ -932,37 +794,24 @@
                                 <option name="answerPlaceholders">
                                   <list>
                                     <AnswerPlaceholder>
+                                      <option name="hints">
+                                        <list />
+                                      </option>
                                       <option name="index" value="0" />
                                       <option name="initialState" />
                                       <option name="length" value="9" />
                                       <option name="offset" value="49" />
+                                      <option name="placeholderDependency" />
+                                      <option name="placeholderText" value="type here" />
+                                      <option name="possibleAnswer" value="robot.zone" />
                                       <option name="selected" value="false" />
-                                      <option name="subtaskInfos">
-                                        <map>
-                                          <entry key="0">
-                                            <value>
-                                              <AnswerPlaceholderSubtaskInfo>
-                                                <option name="answer" value="" />
-                                                <option name="hasFrame" value="true" />
-                                                <option name="hints">
-                                                  <list />
-                                                </option>
-                                                <option name="needInsertText" value="false" />
-                                                <option name="placeholderText" value="type here" />
-                                                <option name="possibleAnswer" value="robot.zone" />
-                                                <option name="selected" value="false" />
-                                                <option name="status" value="Unchecked" />
-                                              </AnswerPlaceholderSubtaskInfo>
-                                            </value>
-                                          </entry>
-                                        </map>
-                                      </option>
+                                      <option name="status" />
+                                      <option name="studentAnswer" />
                                       <option name="useLength" value="false" />
                                     </AnswerPlaceholder>
                                   </list>
                                 </option>
                                 <option name="highlightErrors" value="true" />
-                                <option name="index" value="1" />
                                 <option name="trackChanges" value="true" />
                                 <option name="trackLengths" value="true" />
                                 <option name="userCreated" value="false" />
@@ -973,28 +822,29 @@
                           </entry>
                         </map>
                       </option>
-                    </Task>
-                    <Task>
-                      <option name="activeSubtaskIndex" value="0" />
-                      <option name="adaptiveTaskParameters">
-                        <AdaptiveTaskParameters>
-                          <option name="choiceVariants">
-                            <list />
-                          </option>
-                          <option name="multipleChoice" value="false" />
-                          <option name="selectedVariants">
-                            <list />
-                          </option>
-                          <option name="theoryTask" value="false" />
-                        </AdaptiveTaskParameters>
+                    </ChoiceTask>
+                    <ChoiceTask>
+                      <option name="additionalFiles">
+                        <map />
                       </option>
+                      <option name="choiceVariants">
+                        <list />
+                      </option>
+                      <option name="customPresentableName" />
+                      <option name="descriptionFormat" value="HTML" />
+                      <option name="descriptionText" value="&lt;html&gt;&#10;&lt;p&gt;It might be useful to disable certain things when youre actually running in a competition mode, to possibly speed up your robot.&lt;/p&gt;&#10;&lt;p&gt;Find out what mode your robot is in, and store it in the variable &lt;code&gt;mode&lt;/code&gt;&lt;/p&gt;&#10;&lt;/html&gt;&#10;" />
                       <option name="index" value="2" />
-                      <option name="lastSubtaskIndex" value="0" />
+                      <option name="multipleChoice" value="false" />
                       <option name="name" value="mode" />
+                      <option name="selectedVariants">
+                        <list />
+                      </option>
                       <option name="status" value="Unchecked" />
                       <option name="stepId" value="0" />
-                      <option name="text" />
-                      <option name="theoryTask" value="false" />
+                      <option name="stepikChangeStatus" value="UP_TO_DATE" />
+                      <option name="testsText">
+                        <map />
+                      </option>
                       <option name="updateDate" />
                       <option name="taskFiles">
                         <map>
@@ -1004,37 +854,24 @@
                                 <option name="answerPlaceholders">
                                   <list>
                                     <AnswerPlaceholder>
+                                      <option name="hints">
+                                        <list />
+                                      </option>
                                       <option name="index" value="0" />
                                       <option name="initialState" />
                                       <option name="length" value="9" />
                                       <option name="offset" value="49" />
+                                      <option name="placeholderDependency" />
+                                      <option name="placeholderText" value="type here" />
+                                      <option name="possibleAnswer" value="robot.mode" />
                                       <option name="selected" value="false" />
-                                      <option name="subtaskInfos">
-                                        <map>
-                                          <entry key="0">
-                                            <value>
-                                              <AnswerPlaceholderSubtaskInfo>
-                                                <option name="answer" value="" />
-                                                <option name="hasFrame" value="true" />
-                                                <option name="hints">
-                                                  <list />
-                                                </option>
-                                                <option name="needInsertText" value="false" />
-                                                <option name="placeholderText" value="type here" />
-                                                <option name="possibleAnswer" value="robot.mode" />
-                                                <option name="selected" value="false" />
-                                                <option name="status" value="Unchecked" />
-                                              </AnswerPlaceholderSubtaskInfo>
-                                            </value>
-                                          </entry>
-                                        </map>
-                                      </option>
+                                      <option name="status" />
+                                      <option name="studentAnswer" />
                                       <option name="useLength" value="false" />
                                     </AnswerPlaceholder>
                                   </list>
                                 </option>
                                 <option name="highlightErrors" value="true" />
-                                <option name="index" value="1" />
                                 <option name="trackChanges" value="true" />
                                 <option name="trackLengths" value="true" />
                                 <option name="userCreated" value="false" />
@@ -1045,27 +882,19 @@
                           </entry>
                         </map>
                       </option>
-                    </Task>
+                    </ChoiceTask>
                   </list>
                 </option>
+                <option name="unitId" value="0" />
               </Lesson>
             </list>
           </option>
-          <option name="name" value="Sourcebots Programming Tutorial" />
-          <option name="updateDate" />
         </Course>
       </option>
-      <option name="enableTestingFromSamples" value="false" />
-      <option name="toolWindowMode" value="EDITING" />
-      <option name="turnEditingMode" value="true" />
-      <option name="VERSION" value="4" />
+      <option name="VERSION" value="9" />
       <option name="myUserTests">
         <map />
       </option>
-      <option name="myInvisibleFiles">
-        <list />
-      </option>
-      <option name="myShouldUseJavaFx" value="true" />
     </StudyTaskManager>
   </component>
 </project>
