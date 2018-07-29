@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6c37fe63-bbad-41df-95bf-2b873281b639" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/study_project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/study_project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.coursecreator/Sourcebots_Programming_Tutorial/course.json" beforeDir="false" afterPath="$PROJECT_DIR$/.coursecreator/Sourcebots_Programming_Tutorial/course.json" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.coursecreator/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,17 +17,17 @@
       <file leaf-file-name="task.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/basics/Test Task/task.py">
           <provider selected="true" editor-type-id="StudyEditor">
-            <state relative-caret-position="24">
+            <state relative-caret-position="48">
               <caret line="2" selection-start-line="2" selection-end-line="2" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="task.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="task.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/game/zone/task.py">
           <provider selected="true" editor-type-id="StudyEditor">
             <state relative-caret-position="120">
-              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
             </state>
           </provider>
         </entry>
@@ -67,7 +67,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tests.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="tests.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/basics/Test Task/tests.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="216">
@@ -105,7 +105,7 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="1280" />
-    <option name="y" value="12" />
+    <option name="y" value="30" />
     <option name="width" value="1280" />
     <option name="height" value="1369" />
   </component>
@@ -246,11 +246,11 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1280" y="12" width="1280" height="1369" extended-state="0" />
+    <frame x="1707" y="30" width="853" height="1369" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2450495" />
-      <window_info anchor="right" id="Task Description" order="3" visible="true" weight="0.04950495" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.37834394" />
+      <window_info anchor="right" id="Task Description" order="3" visible="true" weight="0.07643312" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -440,24 +440,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/basics/Test Task/tests.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="9" column="51" selection-start-line="9" selection-start-column="51" selection-end-line="9" selection-end-column="51" />
+    <entry file="file://$PROJECT_DIR$/game/zone/task.py">
+      <provider selected="true" editor-type-id="StudyEditor">
+        <state relative-caret-position="120">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/basics/Test Task/task.py">
       <provider selected="true" editor-type-id="StudyEditor">
-        <state relative-caret-position="24">
+        <state relative-caret-position="48">
           <caret line="2" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/game/zone/task.py">
-      <provider selected="true" editor-type-id="StudyEditor">
-        <state relative-caret-position="120">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+    <entry file="file://$PROJECT_DIR$/basics/Test Task/tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="9" column="51" selection-start-line="9" selection-start-column="51" selection-end-line="9" selection-end-column="51" />
         </state>
       </provider>
     </entry>
